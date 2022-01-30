@@ -10,11 +10,8 @@ def GCD(A, B):
     return B
 
 # 最大公倍数を返す関数
-
-
 def LCM(A, B):
     return int(A*B/GCD(A, B))
-
 
 N = 4
 A = [100, 20, 4, 2]
